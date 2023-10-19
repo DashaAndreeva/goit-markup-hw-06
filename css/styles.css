@@ -274,6 +274,7 @@ header .logo-decoration {
 
 .team > .container {
   max-width: 264px;
+  text-align: center;
 }
 
 .team-title {
@@ -875,6 +876,7 @@ header .logo-decoration {
 
   .team > .container {
     max-width: 552px;
+    text-align: center;
   }
 
   .team-list {
