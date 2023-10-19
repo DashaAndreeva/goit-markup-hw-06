@@ -82,7 +82,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 header .logo-decoration {
@@ -445,12 +444,13 @@ header .logo-decoration {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
@@ -461,11 +461,12 @@ header .logo-decoration {
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
-  padding: 0;
 }
 
 .footer-text {
-  margin-right: 120px;
+}
+
+.logo .footer-link {
 }
 
 .footer-text-p {
@@ -523,6 +524,7 @@ header .logo-decoration {
 
 .footer-form {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -878,6 +880,9 @@ header .logo-decoration {
   .team-list {
     gap: 64px 24px;
   }
+  .team-soc-list {
+    padding: 0;
+  }
 
   .team-item {
     width: calc((100% - 24px) / 2);
@@ -902,6 +907,10 @@ header .logo-decoration {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+  }
+
+  .logo {
+    margin-right: 76px;
   }
 
   .section {
@@ -990,4 +999,22 @@ header .logo-decoration {
   }
 
   /* Footer */
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    flex-wrap: nowrap;
+    max-width: 318px;
+  }
+
+  .footer-form {
+    flex-wrap: nowrap;
+  }
+
+  .footer-text {
+    margin-right: 120px;
+  }
 }
