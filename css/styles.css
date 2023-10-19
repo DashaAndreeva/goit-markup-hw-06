@@ -467,6 +467,9 @@ header .logo-decoration {
 
 .footer-text {
   margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  width: 288px;
 }
 
 .logo .footer-link {
@@ -478,6 +481,7 @@ header .logo-decoration {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  text-align-last: left;
 }
 
 .footer-social {
