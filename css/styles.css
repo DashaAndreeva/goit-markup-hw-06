@@ -930,7 +930,7 @@ header .logo-decoration {
   } */
 
   .footer-text-p {
-    text-align-last: left;
+    text-align: left;
   }
 
   .footer-social {
@@ -950,7 +950,7 @@ header .logo-decoration {
   }
 
   .footer-text {
-    margin-right: 24px;
+    /* margin-right: 24px; */
     margin-bottom: 72px;
   }
 
@@ -963,7 +963,7 @@ header .logo-decoration {
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    min-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
   }
