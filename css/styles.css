@@ -67,6 +67,8 @@ img {
 
 .header-list-all {
   display: flex;
+  padding: 16px;
+  justify-content: center;
 }
 
 .nav-header {
@@ -89,7 +91,7 @@ header .logo-decoration {
 }
 
 .navigation {
-  display: flex;
+  display: none;
   gap: 40px;
   padding: 24px 0;
 }
@@ -136,7 +138,7 @@ header .logo-decoration {
 }
 
 .header-adress-list {
-  display: flex;
+  display: none;
   gap: 40px;
   padding: 24px 0;
 }
@@ -845,19 +847,34 @@ header .logo-decoration {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 767px;
     /* margin: 0 auto; */
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   /* Header */
+
+  .header {
+    padding: 24px;
+  }
 
   .nav-header {
     gap: 120px;
   }
 
-  /* .header-list-all {
-    justify-content: space-between;
-  } */
+  .header-list-all {
+    padding: 0;
+  }
+
+  .navigation {
+    display: flex;
+    padding: 0;
+  }
+
+  .header-adress-list {
+    display: flex;
+    padding: 0;
+  }
 
   .adress {
     float: right;
@@ -1008,16 +1025,29 @@ header .logo-decoration {
     padding: 0 15px;
   }
 
-  .logo {
-    margin-right: 76px;
-  }
-
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
 
     /* border: 5px solid blue; */
   }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .header-list-all {
+    padding: 0;
+  }
+
+  .header-adress-list {
+    display: flex;
+  }
+
   /* HERO */
 
   .hero-section {
