@@ -786,7 +786,7 @@ header .logo-decoration {
 .check-text a {
   color: #4d5ae5;
   text-decoration: underline;
-  margin-left: 4px;
+  margin-left: 23px;
 }
 
 .check-text span {
@@ -797,7 +797,7 @@ header .logo-decoration {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  margin-right: 8px;
+  margin-right: 4px;
   fill: transparent;
 }
 
@@ -989,6 +989,14 @@ header .logo-decoration {
   .modal-title {
     width: 360px;
   }
+
+  .check-text a {
+    margin-left: 3px;
+  }
+
+  .check-text span {
+    margin-right: 8px;
+  }
 }
 
 /* Desctop */
@@ -1149,5 +1157,13 @@ header .logo-decoration {
 
   .modal-input {
     padding-left: 38px;
+  }
+
+  .check-text a {
+    margin-left: 3px;
+  }
+
+  .check-text span {
+    margin-right: 8px;
   }
 }
