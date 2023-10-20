@@ -849,6 +849,16 @@ header .logo-decoration {
     /* margin: 0 auto; */
     padding: 0 15px;
   }
+  /* Header */
+
+  .nav-header {
+    gap: 120px;
+  }
+
+  .header-adress-list {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
 
   /* HERO */
 
