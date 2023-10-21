@@ -383,13 +383,36 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-cover-wrap">
-                <img
-                  src="./images/portfolio-1.jpg"
-                  alt="Banking app"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio-1.jpg    1x,
+                      ./images/portfolio-1-2x.jpg 2x
+                    "
+                    media="(min-width:1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-1-tab.jpg    1x,
+                      ./images/portfolio-1-tab-2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio-1-mob.jpg    1x,
+                      ./images/portfolio-1-mob-2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <img
+                    src="./images/portfolio-1.jpg"
+                    alt="Banking app"
+                    width="360"
+                    height="300"
+                    class="portfolio-img"
+                  />
+                </picture>
 
                 <p class="portfolio-cover-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
