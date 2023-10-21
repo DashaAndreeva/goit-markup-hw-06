@@ -60,6 +60,7 @@ img {
 /* Header */
 
 .header {
+  padding: 15px 0;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -147,10 +148,6 @@ header .logo-decoration {
   justify-content: center;
 }
 .adress-links {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   display: block;
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -959,8 +956,8 @@ header .logo-decoration {
   .container {
     max-width: 768px;
     /* margin: 0 auto; */
-    /* padding-right: 15px;
-    padding-left: 15px; */
+    padding-right: 15px;
+    padding-left: 15px;
   }
   /* Header */
 
@@ -981,19 +978,31 @@ header .logo-decoration {
     padding: 0;
   }
 
+  .navigation-links {
+    padding: 15px 0;
+  }
+
   .header-adress-list {
     display: flex;
+    flex-direction: column;
     padding: 0;
   }
 
   .adress {
     float: right;
-    padding: 5px 0;
+    padding: 9px 0;
   }
   .header-adress-list {
     flex-wrap: wrap;
     gap: 12px;
     justify-content: flex-end;
+  }
+
+  .adress-links {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
   }
 
   .menu-open-btn {
@@ -1169,6 +1178,23 @@ header .logo-decoration {
 
   .header-adress-list {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .navigation-links {
+    padding: 24px 0;
+  }
+
+  .adress {
+    padding: 0;
+  }
+
+  .adress-links {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 
   .menu-open-btn {
