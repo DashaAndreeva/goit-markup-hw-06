@@ -295,7 +295,7 @@ header .logo-decoration {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
-  max-width: 288px;
+  max-width: 157px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1031,7 +1031,7 @@ header .logo-decoration {
     text-transform: none;
   }
 
-  .mobile-hero-title {
+  .hero-title br {
     display: none;
   }
   /* ADVANTAGES */
