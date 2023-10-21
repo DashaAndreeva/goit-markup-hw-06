@@ -1207,6 +1207,7 @@ header .logo-decoration {
   .header-adress-list {
     display: flex;
     flex-wrap: nowrap;
+    gap: 40px;
     flex-direction: row;
   }
 
