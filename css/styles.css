@@ -1114,12 +1114,18 @@ header .logo-decoration {
     width: 552px;
     text-align: center;
   }
+
+  /* .footer-container {
+    gap: 72px 24px;
+  } */
+
   .footer-link {
     text-align-last: left;
   }
-  /* .footer-text {
+  .footer-text {
     margin-bottom: 0;
-  } */
+    max-width: 264px;
+  }
 
   .footer-text-p {
     text-align: left;
@@ -1129,6 +1135,7 @@ header .logo-decoration {
     margin-right: auto;
     text-align: left;
     width: 208px;
+    margin-bottom: 0;
   }
 
   .footer-form-box {
@@ -1142,7 +1149,7 @@ header .logo-decoration {
   }
 
   .footer-text {
-    /* margin-right: 24px; */
+    margin-right: 24px;
     margin-bottom: 72px;
   }
 
@@ -1194,11 +1201,14 @@ header .logo-decoration {
   }
 
   .logo {
-    margin-right: 76px;
   }
 
   .navigation {
     display: flex;
+  }
+
+  .nav-header {
+    gap: 76px;
   }
 
   .header-list-all {
@@ -1357,6 +1367,7 @@ header .logo-decoration {
     margin-right: auto;
     text-align: left;
     width: 208px;
+    margin-bottom: 0;
   }
 
   .footer-form-box {
@@ -1371,6 +1382,7 @@ header .logo-decoration {
 
   .footer-text {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .subtitle-footer-form {
