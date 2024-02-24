@@ -1,14 +1,30 @@
-const open = document.querySelector(".menu-open-btn");
-const close = document.querySelector(".menu-close-button");
+"use strict";
 
+const mobMenuBtn = document.querySelector(".menu-open-btn");
+const closemobMenuBtn = document.querySelector(".menu-close-button");
 const menu = document.querySelector(".menu-mob");
 
-function onOpenClick() {
+const backdropBtn = document.querySelector(".hero-btn");
+const backdropCloseBtn = document.querySelector(".modal-button");
+const backdrop = document.querySelector(".backdrop");
+
+mobMenuBtn.addEventListener("click", onMenuOpen);
+closemobMenuBtn.addEventListener("click", onMenuClose);
+backdropBtn.addEventListener("click", onBackdropOpen);
+backdropCloseBtn.addEventListener("click", onBackdropClose);
+
+function onMenuOpen() {
   menu.classList.add("is-open");
 }
 
-open.addEventListener("click", onOpenClick);
-close.addEventListener("click", onCloseClick);
-function onCloseClick() {
-  menu.classList.add("visually-hidden");
+function onMenuClose() {
+  menu.classList.remove("is-open");
+}
+
+function onBackdropOpen() {
+  backdrop.classList.add("is-open");
+}
+
+function onBackdropClose() {
+  backdrop.classList.remove("is-open");
 }
